@@ -5,16 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="path/to/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <style>
-        bodY {
+         body{
             display: grid;
-            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-rows: auto auto auto;
         }
 
+
+
         .carousel .carousel-item {
-            height: 300px;
+            height: 600px;
+        }
+
+        .table{
+            font-family: 'Times New Roman', Times, serif;
         }
     </style>
 </head>
@@ -56,14 +66,92 @@
                 </a>
             </div>
         </div>
-        
+
     </div>
-<div>
-            azxcz
-        </div>
-        <div>
-            xzczxc
-        </div>
+        <div class="container">
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">目前排名</th>
+                        <th scope="col">球隊名稱</th>
+                        <th scope="col">Win - Lose</th>
+                        <th scope="col">下場對決</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td class="table_items"><a href="index.html"> <img class="lakers_logo" src="image/lakers_logo.jpg">LOS ANGELES LAKERS</a></td>
+                        <td class="table_items">52 - 19</td>
+                        <td class="table_items">@NULL</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td class="table_items"><img class="rockets_logo" src="image/rockers_logo.jpg">HOUSTON ROCKETS</td>
+                        <td class="table_items">44 - 28</td>
+                        <td class="table_items">@NULL</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td class="table_items"><img class="heat_logo" src="image/heat_logo.jpg">MIAMI HEAT</td>
+                        <td class="table_items">44 - 29</td>
+                        <td class="table_items">@NULL</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table table-striped">
+                <h1 align="center">Schedule</h1>
+                <tr>
+                    <td align="right"><img class="lakers_logo" src="image/lakers_logo.jpg">LOS ANGELES LAKERS</td>
+                    <td>96</td>
+                    <td style="color:red; font-weight: bolder;">100</td>
+                    <td><img class="por_logo" src="image/por_logo.jpg">PORTLAND TRAIL BLAZERS</td>
+                    <td>8月19日</td>
+                </tr>
+                <tr>
+                    <td align="right"><img class="lakers_logo" src="image/lakers_logo.jpg">LOS ANGELES LAKERS</td>
+                    <td style="color:red; font-weight: bolder;">111</td>
+                    <td >88</td>
+                    <td><img class="por_logo" src="image/por_logo.jpg">PORTLAND TRAIL BLAZERS</td>
+                    <td>8月21日</td>
+                </tr>
+                <tr>
+                    <td align="right"><img class="lakers_logo" src="image/lakers_logo.jpg">LOS ANGELES LAKERS</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td><img class="por_logo" src="image/por_logo.jpg">PORTLAND TRAIL BLAZERS</td>
+                    <td>8月24日</td>
+                </tr>
+                <tr>
+                    <td align="right"><img class="lakers_logo" src="image/lakers_logo.jpg">LOS ANGELES LAKERS</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td><img class="por_logo" src="image/por_logo.jpg">PORTLAND TRAIL BLAZERS</td>
+                    <td>8月25日 上午9:00</td>
+                </tr>
+                <tr>
+                    <td align="right"><img class="lakers_logo" src="image/lakers_logo.jpg">LOS ANGELES LAKERS</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td><img class="por_logo" src="image/por_logo.jpg">PORTLAND TRAIL BLAZERS</td>
+                    <td>待定</td>
+                </tr>
+                <tr>
+                    <td align="right"><img class="lakers_logo" src="image/lakers_logo.jpg">LOS ANGELES LAKERS</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td><img class="por_logo" src="image/por_logo.jpg">PORTLAND TRAIL BLAZERS</td>
+                    <td>待定</td>
+                </tr>
+                <tr>
+                    <td align="right"><img class="lakers_logo" src="image/lakers_logo.jpg">LOS ANGELES LAKERS</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td><img class="por_logo" src="image/por_logo.jpg">PORTLAND TRAIL BLAZERS</td>
+                    <td>待定</td>
+                </tr>
+            </table>
 
 
 
@@ -75,15 +163,26 @@
 
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"
+        integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYtMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg=="
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"
+        integrity="sha512-rmZcZsyhe0/MAjquhTgiUcb4d9knaFc7b5xAfju483gbEXTkeJRUMIPk6s3ySZMYUHEcjKbjLjyddGWMrNEvZg=="
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/locale/zh-tw.min.js"
+        integrity="sha512-teZ6dd0iHPCs4aUqFGC1OSUiT+pY6eqk5Jaa2sE7wqExKu3Tscsn1RYbEJWPWsqKYroeJ6jlkR2YdY3Em8eVRQ=="
         crossorigin="anonymous"></script>
+
 </body>
 
 
